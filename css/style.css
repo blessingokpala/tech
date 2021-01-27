@@ -76,11 +76,14 @@ header hr {
   margin-top: 50px;
 }
 
-#footer {
-  font-size: 18px;
-  margin-left: 80px;
-  color: #ffffff;
-  text-transform: none;
+footer {
+  background-color: #9b9595;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li a {
+  font-size: 0.5rem;
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
