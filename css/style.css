@@ -286,6 +286,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .card-deck .card {
     margin-bottom: 30px;
   }
+  .social .fa-twitter {
+    margin-left: -5px;
+  }
+  .social .fa-linkedin {
+    margin-left: -2px;
+  }
+  .social .fa-behance {
+    margin-left: -5px;
+  }
 }
 
 /* Ipad */
@@ -316,6 +325,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     #about p {
       font-size: 1.5rem;
+    }
+    .social .fa-twitter {
+      margin-left: -5px;
+    }
+    .social .fa-linkedin {
+      margin-left: -2px;
+    }
+    .social .fa-behance {
+      margin-left: -5px;
     }
 }
 
@@ -350,6 +368,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     #projects h2 {
       font-size: 1.7rem;
+    }
+    .social .fa-twitter {
+      margin-left: -5px;
+    }
+    .social .fa-linkedin {
+      margin-left: -2px;
+    }
+    .social .fa-behance {
+      margin-left: -5px;
     }
 }
 
@@ -386,7 +413,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
     #projects h2 {
       font-size: 1.7rem;
     }
-    
+    .social .fa-twitter {
+      margin-left: -5px;
+    }
+    .social .fa-linkedin {
+      margin-left: -2px;
+    }
+    .social .fa-behance {
+      margin-left: -5px;
+    }
 }
 
 /* ———– iPhone 4 and 4S Galaxy S5 ———– /
@@ -416,6 +451,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .social {
     margin-left: 50px;
   }
+  .social .fa-twitter {
+    margin-left: -5px;
+  }
+  .social .fa-linkedin {
+    margin-left: -2px;
+  }
+  .social .fa-behance {
+    margin-left: -5px;
+  }
   
 }
 @media only screen 
@@ -442,6 +486,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     .card-deck .card {
       margin-bottom: 30px;
+    }
+    .social .fa-twitter {
+      margin-left: -5px;
+    }
+    .social .fa-linkedin {
+      margin-left: -2px;
+    }
+    .social .fa-behance {
+      margin-left: -5px;
     }
   }
 
@@ -502,6 +555,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .card-deck .card {
       margin-bottom: 30px;
     }
+    .social .fa-twitter {
+      margin-left: -5px;
+    }
+    .social .fa-linkedin {
+      margin-left: -2px;
+    }
+    .social .fa-behance {
+      margin-left: -5px;
+    }
   }
 
   @media only screen 
@@ -533,6 +595,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     .card-deck .card {
       margin-bottom: 30px;
+    }
+    .social .fa-twitter {
+      margin-left: -5px;
+    }
+    .social .fa-linkedin {
+      margin-left: -2px;
+    }
+    .social .fa-behance {
+      margin-left: -5px;
     }
   }
 
@@ -567,6 +638,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .card-deck .card {
       margin-bottom: 30px;
     }
+    .social .fa-twitter {
+      margin-left: -5px;
+    }
+    .social .fa-linkedin {
+      margin-left: -2px;
+    }
+    .social .fa-behance {
+      margin-left: -5px;
+    }
   }
 /* iPhone 8 */
 @media only screen 
@@ -599,6 +679,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .card-deck .card {
     margin-bottom: 30px;
   }
+  .social .fa-twitter {
+    margin-left: -5px;
+  }
+  .social .fa-linkedin {
+    margin-left: -2px;
+  }
+  .social .fa-behance {
+    margin-left: -5px;
+  }
 }
 /* iPhone 11 */
 @media only screen 
@@ -630,5 +719,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   .card-deck .card {
     margin-bottom: 30px;
+  }
+  .social .fa-twitter {
+    margin-left: -5px;
+  }
+  .social .fa-linkedin {
+    margin-left: -2px;
+  }
+  .social .fa-behance {
+    margin-left: -5px;
   }
 }
