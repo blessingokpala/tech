@@ -71,6 +71,10 @@ header h2 {
   text-transform: uppercase;
   text-align: center;
 }
+h3 {
+  color: #fff;
+}
+
 #about p {
 font-size: 1.2rem;
 }
@@ -113,12 +117,21 @@ footer {
 }
 
 /* social */
+.social .fa-twitter {
+  margin-left: -5px;
+}
+.social .fa-linkedin {
+  margin-left: -2px;
+}
+.social .fa-behance {
+  margin-left: -5px;
+}
 #fa-behance:hover {
   background-color: #4f1567;
 }
 #fa-behance {
+  color: #ffffff;
   background: #0057FF;
-  color: white;
   border-radius: 50%;
   height: 45px;
   width: 45px;
@@ -246,6 +259,47 @@ footer {
     margin-left: -25px;
   }
 }
+/* Galaxy S5 */
+@media only screen 
+and (min-device-width: 360px) 
+and (max-device-width: 640px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+  a img {
+    height: 60px;
+    width: 60px;
+    margin-left: -10px;
+  }
+  header img {
+    margin-right: -10px;
+    height: 150px;
+    width: 150px;
+    margin-top: 120px;
+  } 
+  header h1 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    margin-left: -30px;
+  }
+  header h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  #about p {
+    font-size: 1rem;
+  }
+  .card-deck .card {
+    margin-bottom: 30px;
+  }
+  .social .fa-twitter {
+    margin-left: -5px;
+  }
+  .social .fa-linkedin {
+    margin-left: -2px;
+  }
+  .social .fa-behance {
+    margin-left: -5px;
+  }
+}
 
 /* Ipad */
 @media only screen 
@@ -275,6 +329,15 @@ footer {
     }
     #about p {
       font-size: 1.5rem;
+    }
+    .social .fa-twitter {
+      margin-left: -5px;
+    }
+    .social .fa-linkedin {
+      margin-left: -2px;
+    }
+    .social .fa-behance {
+      margin-left: -5px;
     }
 }
 
@@ -309,6 +372,15 @@ footer {
     }
     #projects h2 {
       font-size: 1.7rem;
+    }
+    .social .fa-twitter {
+      margin-left: -5px;
+    }
+    .social .fa-linkedin {
+      margin-left: -2px;
+    }
+    .social .fa-behance {
+      margin-left: -5px;
     }
 }
 
@@ -345,6 +417,15 @@ footer {
     #projects h2 {
       font-size: 1.7rem;
     }
+    .social .fa-twitter {
+      margin-left: -5px;
+    }
+    .social .fa-linkedin {
+      margin-left: -2px;
+    }
+    .social .fa-behance {
+      margin-left: -5px;
+    }
 }
 
 /* ———– iPhone 4 and 4S Galaxy S5 ———– /
@@ -373,5 +454,283 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   .social {
     margin-left: 50px;
+  }
+  .social .fa-twitter {
+    margin-left: -5px;
+  }
+  .social .fa-linkedin {
+    margin-left: -2px;
+  }
+  .social .fa-behance {
+    margin-left: -5px;
+  }
+  
+}
+@media only screen 
+  and (min-device-width: 384px) 
+  and (max-device-width: 688px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    a img {
+      height: 60px;
+      width: 60px;
+      margin-left: -5px;
+    }
+    header img {
+      margin-right: -10px;
+      height: 200px;
+      width: 200px;
+      margin-top: 90px;
+    } 
+    header h1 {
+      margin-top: 4px;
+    }
+    header h2 {
+      font-size: 1.2rem;
+      margin-left: -10px;
+    }
+    .card-deck .card {
+      margin-bottom: 30px;
+    }
+    .social .fa-twitter {
+      margin-left: -5px;
+    }
+    .social .fa-linkedin {
+      margin-left: -2px;
+    }
+    .social .fa-behance {
+      margin-left: -5px;
+    }
+  }
+
+  @media only screen 
+  and (min-device-width: 384px) 
+  and (max-device-width: 728px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    a img {
+      height: 60px;
+      width: 60px;
+      margin-left: -5px;
+    }
+    header img {
+      margin-right: -10px;
+      height: 200px;
+      width: 200px;
+      margin-top: 90px;
+    } 
+    header h1 {
+      margin-top: 4px;
+    }
+    header h2 {
+      font-size: 1.2rem;
+      margin-left: -10px;
+    }
+    .card-deck .card {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media only screen 
+  and (min-device-width: 384px) 
+  and (max-device-width: 787px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    a img {
+      height: 60px;
+      width: 60px;
+      margin-left: -5px;
+    }
+    header img {
+      margin-right: -10px;
+      height: 200px;
+      width: 200px;
+      margin-top: 90px;
+    } 
+    header h1 {
+      margin-top: 1px;
+      font-size: 1.5rem;
+      margin-left: -30px;
+    }
+    header h2 {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    #about p {
+      font-size: 1.1rem;
+    }
+    .card-deck .card {
+      margin-bottom: 30px;
+    }
+    .social .fa-twitter {
+      margin-left: -5px;
+    }
+    .social .fa-linkedin {
+      margin-left: -2px;
+    }
+    .social .fa-behance {
+      margin-left: -5px;
+    }
+  }
+
+  @media only screen 
+  and (min-device-width: 384px) 
+  and (max-device-width: 838px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    a img {
+      height: 60px;
+      width: 60px;
+      margin-left: -5px;
+    }
+    header img {
+      margin-right: -10px;
+      height: 200px;
+      width: 200px;
+      margin-top: 90px;
+    } 
+    header h1 {
+      margin-top: 1px;
+      font-size: 1.5rem;
+      margin-left: -30px;
+    }
+    header h2 {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    #about p {
+      font-size: 1.1rem;
+    }
+    .card-deck .card {
+      margin-bottom: 30px;
+    }
+    .social .fa-twitter {
+      margin-left: -5px;
+    }
+    .social .fa-linkedin {
+      margin-left: -2px;
+    }
+    .social .fa-behance {
+      margin-left: -5px;
+    }
+  }
+
+  /* iPhone 13 Pro Max and iPhone 12 Pro Max */
+  @media only screen 
+  and (min-device-width: 480px) 
+  and (max-device-width: 926px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    a img {
+      height: 60px;
+      width: 60px;
+      margin-left: -5px;
+    }
+    header img {
+      margin-right: -10px;
+      height: 200px;
+      width: 200px;
+      margin-top: 120px;
+    } 
+    header h1 {
+      margin-top: 20px;
+      font-size: 1.5rem;
+      margin-left: -30px;
+    }
+    header h2 {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    #about p {
+      font-size: 1.1rem;
+    }
+    .card-deck .card {
+      margin-bottom: 30px;
+    }
+    .social .fa-twitter {
+      margin-left: -5px;
+    }
+    .social .fa-linkedin {
+      margin-left: -2px;
+    }
+    .social .fa-behance {
+      margin-left: -5px;
+    }
+  }
+/* iPhone 8 */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+  a img {
+    height: 60px;
+    width: 60px;
+    margin-left: -10px;
+  }
+  header img {
+    margin-right: -10px;
+    height: 150px;
+    width: 150px;
+    margin-top: 90px;
+  } 
+  header h1 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    margin-left: -30px;
+  }
+  header h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  #about p {
+    font-size: 1rem;
+  }
+  .card-deck .card {
+    margin-bottom: 30px;
+  }
+  .social .fa-twitter {
+    margin-left: -5px;
+  }
+  .social .fa-linkedin {
+    margin-left: -2px;
+  }
+  .social .fa-behance {
+    margin-left: -5px;
+  }
+}
+/* iPhone 11 */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 896px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+  a img {
+    height: 60px;
+    width: 60px;
+    margin-left: -10px;
+  }
+  header img {
+    margin-right: -10px;
+    height: 150px;
+    width: 150px;
+    margin-top: 120px;
+  } 
+  header h1 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    margin-left: -30px;
+  }
+  header h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  #about p {
+    font-size: 1rem;
+  }
+  .card-deck .card {
+    margin-bottom: 30px;
+  }
+  .social .fa-twitter {
+    margin-left: -5px;
+  }
+  .social .fa-linkedin {
+    margin-left: -2px;
+  }
+  .social .fa-behance {
+    margin-left: -5px;
   }
 }
