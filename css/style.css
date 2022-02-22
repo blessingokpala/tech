@@ -71,6 +71,10 @@ header h2 {
   text-transform: uppercase;
   text-align: center;
 }
+h3 {
+  color: #fff;
+}
+
 #about p {
 font-size: 1.2rem;
 }
